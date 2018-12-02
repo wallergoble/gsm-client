@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import logo from '../images/logo.png'
+import logo from '../images/logo-no-padding.png'
 
 const Well = () => (
     <div
@@ -10,7 +10,10 @@ const Well = () => (
 
         }}
     >
-        <img src={logo}></img>
+        <img
+            style={{
+            }}
+            src={logo}></img>
         <h3> "Move any shed anywhere" </h3>
     </div>
 )
